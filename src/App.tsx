@@ -1,26 +1,37 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { CssBaseline } from '@mui/material';
+import { ThemeProvider } from './theme/ThemeProvider';
+import DashboardLayout from './components/dashboard/DashboardLayout';
+import Dashboard from './pages/Dashboard';
+import Analytics from './pages/Analytics';
+import Users from './pages/Users';
+import Settings from './pages/Settings';
+import Login from './pages/Login';
+import NotFound from './pages/NotFound';
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <ThemeProvider>
+      <CssBaseline />
+      <Router>
+        <Routes>
+          <Route path="/login" element={<Login />} />
+          
+          <Route path="/" element={<Navigate to="/dashboard" replace />} />
+          
+          <Route path="/" element={<DashboardLayout />}>
+            <Route path="dashboard" element={<Dashboard />} />
+            <Route path="analytics" element={<Analytics />} />
+            <Route path="users" element={<Users />} />
+            <Route path="settings" element={<Settings />} />
+          </Route>
+          
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </Router>
+    </ThemeProvider>
   );
-}
+};
 
 export default App;
