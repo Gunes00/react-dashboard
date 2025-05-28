@@ -1,93 +1,93 @@
-# Modern React Dashboard
+# Modern React Gösterge Paneli
 
-A modern, responsive admin dashboard built with React, TypeScript, and Material UI.
+React, TypeScript ve Material UI ile oluşturulmuş modern, duyarlı bir yönetici gösterge paneli.
 
-![Dashboard Preview](https://i.imgur.com/9CWnUwM.png)
+![Gösterge Paneli Önizlemesi](https://i.imgur.com/9CWnUwM.png)
 
-## ✨ Features
+## ✨ Özellikler
 
-- **Modern UI Design** - Clean and intuitive interface with glassmorphism effects
-- **Responsive Layout** - Fully responsive design that works on all devices
-- **Dark/Light Theme** - Customizable theme with seamless switching
-- **Interactive Charts** - Data visualization with Chart.js
-- **Data Tables** - Sortable, searchable tables for data management
-- **Authentication Pages** - Login page with modern design
-- **User Management** - Complete user management interface
-- **Settings Panel** - Comprehensive settings with profile customization
-- **Analytics Dashboard** - Detailed analytics with multiple visualizations
+- **Modern UI Tasarımı** - Cam efektli temiz ve sezgisel arayüz
+- **Duyarlı Düzen** - Tüm cihazlarda çalışan tamamen duyarlı tasarım
+- **Koyu/Açık Tema** - Sorunsuz geçişli özelleştirilebilir tema
+- **İnteraktif Grafikler** - Chart.js ile veri görselleştirme
+- **Veri Tabloları** - Veri yönetimi için sıralanabilir, aranabilir tablolar
+- **Kimlik Doğrulama Sayfaları** - Modern tasarımlı giriş sayfası
+- **Kullanıcı Yönetimi** - Eksiksiz kullanıcı yönetimi arayüzü
+- **Ayarlar Paneli** - Profil özelleştirmeli kapsamlı ayarlar
+- **Analitik Gösterge Paneli** - Çoklu görselleştirmelerle detaylı analitik
 
-## 🚀 Technologies Used
+## 🚀 Kullanılan Teknolojiler
 
-- **React** - Frontend library for building user interfaces
-- **TypeScript** - Type-safe JavaScript
-- **Material UI** - React component library
-- **Chart.js** - Data visualization
-- **React Router** - Navigation and routing
-- **Context API** - State management
+- **React** - Kullanıcı arayüzleri oluşturmak için önyüz kütüphanesi
+- **TypeScript** - Tip güvenli JavaScript
+- **Material UI** - React bileşen kütüphanesi
+- **Chart.js** - Veri görselleştirme
+- **React Router** - Gezinme ve yönlendirme
+- **Context API** - Durum yönetimi
 
-## 📦 Installation
+## 📦 Kurulum
 
-1. Clone the repository:
+1. Repository'yi klonlayın:
    ```bash
    git clone https://github.com/yourusername/react-dashboard.git
    ```
 
-2. Navigate to the project directory:
+2. Proje dizinine gidin:
    ```bash
    cd react-dashboard
    ```
 
-3. Install the dependencies:
+3. Bağımlılıkları yükleyin:
    ```bash
    npm install
    ```
 
-4. Start the development server:
+4. Geliştirme sunucusunu başlatın:
    ```bash
    npm start
    ```
 
-5. Open [http://localhost:3000](http://localhost:3000) to view the dashboard.
+5. Gösterge panelini görüntülemek için [http://localhost:3000](http://localhost:3000) adresini açın.
 
-## 🔧 Available Scripts
+## 🔧 Kullanılabilir Scriptler
 
-- `npm start` - Runs the app in development mode
-- `npm test` - Launches the test runner
-- `npm run build` - Builds the app for production
-- `npm run eject` - Ejects from Create React App
+- `npm start` - Uygulamayı geliştirme modunda çalıştırır
+- `npm test` - Test çalıştırıcısını başlatır
+- `npm run build` - Uygulamayı üretim için derler
+- `npm run eject` - Create React App'ten çıkartır
 
-## 🌟 Key Components
+## 🌟 Temel Bileşenler
 
-- **Dashboard** - Main overview with statistics and charts
-- **Analytics** - Detailed data analysis and reporting
-- **User Management** - Interface for managing users
-- **Settings** - Application and user settings
+- **Gösterge Paneli** - İstatistikler ve grafiklerle ana genel bakış
+- **Analitik** - Detaylı veri analizi ve raporlama
+- **Kullanıcı Yönetimi** - Kullanıcıları yönetmek için arayüz
+- **Ayarlar** - Uygulama ve kullanıcı ayarları
 
-## 🔐 Authentication
+## 🔐 Kimlik Doğrulama
 
-The dashboard includes a login page with:
-- Email/password authentication
-- "Remember me" functionality
-- Social login options
-- Password recovery
+Gösterge paneli şunları içeren bir giriş sayfası içerir:
+- E-posta/parola kimlik doğrulaması
+- "Beni hatırla" işlevselliği
+- Sosyal giriş seçenekleri
+- Parola kurtarma
 
-## 📱 Responsive Design
+## 📱 Duyarlı Tasarım
 
-The dashboard is fully responsive and optimized for:
-- Desktop
+Gösterge paneli tamamen duyarlıdır ve şunlar için optimize edilmiştir:
+- Masaüstü
 - Tablet
-- Mobile devices
+- Mobil cihazlar
 
-## 🎨 Theming
+## 🎨 Temalar
 
-- Customizable light and dark themes
-- Color scheme adjustments
-- Typography customization
+- Özelleştirilebilir açık ve koyu temalar
+- Renk şeması ayarlamaları
+- Tipografi özelleştirme
 
-## 📝 License
+## 📝 Lisans
 
-This project is licensed under the MIT License.
+Bu proje MIT Lisansı altında lisanslanmıştır.
 
-## 👨‍💻 Author
+## 👨‍💻 Yazar
 
-Created by [Your Name](https://github.com/yourusername)
+[İsminiz](https://github.com/yourusername) tarafından oluşturulmuştur
