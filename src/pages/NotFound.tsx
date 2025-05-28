@@ -28,11 +28,11 @@ const NotFound: React.FC = () => {
         </Typography>
         
         <Typography variant="h4" component="h2" gutterBottom>
-          Page Not Found
+          Sayfa Bulunamadı
         </Typography>
         
         <Typography variant="body1" color="text.secondary" sx={{ mb: 4, maxWidth: 500 }}>
-          The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.
+          Aradığınız sayfa kaldırılmış, adı değiştirilmiş veya geçici olarak kullanılamıyor olabilir.
         </Typography>
         
         <Box sx={{ display: 'flex', gap: 2, flexWrap: 'wrap', justifyContent: 'center' }}>
@@ -43,7 +43,7 @@ const NotFound: React.FC = () => {
             startIcon={<ArrowBackIcon />}
             onClick={() => navigate(-1)}
           >
-            Go Back
+            Geri Dön
           </Button>
           
           <Button
@@ -52,7 +52,7 @@ const NotFound: React.FC = () => {
             size="large"
             onClick={() => navigate('/dashboard')}
           >
-            Go to Dashboard
+            Gösterge Paneline Git
           </Button>
         </Box>
 

@@ -36,10 +36,10 @@ const Sidebar: React.FC<SidebarProps> = ({ open, onClose, mobileView }) => {
   const { toggleTheme, isDark } = React.useContext(ThemeContext);
 
   const menuItems = [
-    { text: 'Dashboard', icon: <DashboardIcon />, path: '/dashboard' },
-    { text: 'Analytics', icon: <AnalyticsIcon />, path: '/analytics' },
-    { text: 'Users', icon: <UserIcon />, path: '/users' },
-    { text: 'Settings', icon: <SettingsIcon />, path: '/settings' },
+    { text: 'Gösterge Paneli', icon: <DashboardIcon />, path: '/dashboard' },
+    { text: 'Analitik', icon: <AnalyticsIcon />, path: '/analytics' },
+    { text: 'Kullanıcılar', icon: <UserIcon />, path: '/users' },
+    { text: 'Ayarlar', icon: <SettingsIcon />, path: '/settings' },
   ];
 
   const handleNavigation = (path: string) => {
@@ -53,7 +53,7 @@ const Sidebar: React.FC<SidebarProps> = ({ open, onClose, mobileView }) => {
     <>
       <Box sx={{ p: 2, display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
         <Typography variant="h6" noWrap component="div">
-          React Dashboard
+          React Gösterge Paneli
         </Typography>
         <IconButton onClick={toggleTheme} color="inherit">
           {isDark ? <LightModeIcon /> : <DarkModeIcon />}
@@ -80,7 +80,7 @@ const Sidebar: React.FC<SidebarProps> = ({ open, onClose, mobileView }) => {
               <ListItemIcon>
                 <LogoutIcon />
               </ListItemIcon>
-              <ListItemText primary="Logout" />
+              <ListItemText primary="Çıkış" />
             </ListItemButton>
           </ListItem>
         </List>

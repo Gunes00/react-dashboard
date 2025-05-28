@@ -73,10 +73,10 @@ const Login: React.FC = () => {
         >
           <Box sx={{ mb: 4, textAlign: 'center' }}>
             <Typography variant="h4" component="h1" gutterBottom fontWeight="bold">
-              Welcome Back
+              Tekrar Hoş Geldiniz
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Please sign in to continue
+              Lütfen devam etmek için giriş yapın
             </Typography>
           </Box>
 
@@ -84,7 +84,7 @@ const Login: React.FC = () => {
             <TextField
               fullWidth
               margin="normal"
-              label="Email Address"
+              label="E-posta Adresi"
               variant="outlined"
               required
               value={email}
@@ -101,7 +101,7 @@ const Login: React.FC = () => {
             <TextField
               fullWidth
               margin="normal"
-              label="Password"
+              label="Parola"
               variant="outlined"
               type={showPassword ? 'text' : 'password'}
               required
@@ -136,10 +136,10 @@ const Login: React.FC = () => {
                     color="primary"
                   />
                 }
-                label="Remember me"
+                label="Beni hatırla"
               />
               <Link href="#" variant="body2" underline="hover">
-                Forgot password?
+                Parolamı unuttum?
               </Link>
             </Box>
 
@@ -151,12 +151,12 @@ const Login: React.FC = () => {
               type="submit"
               sx={{ mt: 2, mb: 3, py: 1.2 }}
             >
-              Sign In
+              Giriş Yap
             </Button>
 
             <Divider sx={{ my: 3 }}>
               <Typography variant="body2" color="text.secondary">
-                OR
+                VEYA
               </Typography>
             </Divider>
 
@@ -167,7 +167,7 @@ const Login: React.FC = () => {
                 startIcon={<GoogleIcon />}
                 sx={{ py: 1 }}
               >
-                Google
+                Google ile Giriş
               </Button>
               <Button
                 fullWidth
@@ -175,15 +175,15 @@ const Login: React.FC = () => {
                 startIcon={<GitHubIcon />}
                 sx={{ py: 1 }}
               >
-                GitHub
+                GitHub ile Giriş
               </Button>
             </Box>
 
             <Box sx={{ mt: 3, textAlign: 'center' }}>
               <Typography variant="body2">
-                Don't have an account?{' '}
+                Hesabınız yok mu?{' '}
                 <Link href="#" underline="hover" fontWeight="bold">
-                  Sign Up
+                  Kayıt Ol
                 </Link>
               </Typography>
             </Box>
@@ -205,27 +205,27 @@ const Login: React.FC = () => {
         >
           <Box sx={{ maxWidth: '400px' }}>
             <Typography variant="h4" gutterBottom fontWeight="bold">
-              React Dashboard
+              React Gösterge Paneli
             </Typography>
             <Typography variant="h6" gutterBottom>
-              Modern Admin Dashboard
+              Modern Yönetici Paneli
             </Typography>
             <Typography variant="body1" sx={{ opacity: 0.8, mb: 4 }}>
-              A comprehensive dashboard solution with analytics, user management, and more. Built with React, TypeScript, and Material UI.
+              Analitik, kullanıcı yönetimi ve daha fazlasını içeren kapsamlı bir gösterge paneli çözümü. React, TypeScript ve Material UI ile oluşturulmuştur.
             </Typography>
 
             <Box sx={{ display: 'flex', gap: 2, mt: 4 }}>
               <Box sx={{ textAlign: 'center', p: 2, borderRadius: 1, bgcolor: 'rgba(255,255,255,0.1)' }}>
                 <Typography variant="h5">20+</Typography>
-                <Typography variant="body2">Pages</Typography>
+                <Typography variant="body2">Sayfa</Typography>
               </Box>
               <Box sx={{ textAlign: 'center', p: 2, borderRadius: 1, bgcolor: 'rgba(255,255,255,0.1)' }}>
                 <Typography variant="h5">10+</Typography>
-                <Typography variant="body2">Components</Typography>
+                <Typography variant="body2">Bileşen</Typography>
               </Box>
               <Box sx={{ textAlign: 'center', p: 2, borderRadius: 1, bgcolor: 'rgba(255,255,255,0.1)' }}>
                 <Typography variant="h5">5+</Typography>
-                <Typography variant="body2">Charts</Typography>
+                <Typography variant="body2">Grafik</Typography>
               </Box>
             </Box>
           </Box>
